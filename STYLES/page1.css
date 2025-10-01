@@ -8,3 +8,39 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+header {
+    flex-direction: column;
+    background-color: white;
+    width: 100vw;
+    height: 13vh;
+    border-radius: 0 0 10% 10%;
+    opacity: 35%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo {
+    visibility: 100%;
+    color: black;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotos__foto {
+    background-color: white;
+    height: 30vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
