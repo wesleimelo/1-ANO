@@ -42,6 +42,10 @@ body {
     border-style: solid;
 }
 
+.painel__login__titulo {
+    font-size:150%;
+}
+
 .painel__login__campo:hover {
     background-color: transparent;
     color: white;
