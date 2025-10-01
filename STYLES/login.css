@@ -1,0 +1,50 @@
+@keyframes myanimation {
+    0% {scale: 1.0;}
+    25% {scale: 1.1;}
+    50% {scale: 1.1;}
+    100% {scale: 1.1;}
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ff5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel__login {
+    background-color: #bf3d3d;
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.painel__login__campo {
+    background-color: white;
+    height: 10vh;
+    width: 70vw;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+}
+
+.painel__login__campo:hover {
+    background-color: transparent;
+    color: white;
+    animation-name: myanimation;
+    animation-duration: 2s;
+}
